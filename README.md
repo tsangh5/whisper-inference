@@ -1,10 +1,10 @@
 # whisper-inference
 
 A (in progress) from-scratch C++ inference engine for OpenAI's Whisper, built against a
-Python reference implementation. The weight format, the memory layout, and eventually every kernel are written and
-numerically validated against PyTorch at every stage.
+Python reference implementation. The weight format, the memory layout, and kernels are written and
+validated against PyTorch at every stage.
 
-This is a personal project to learn how inference engines actually work, and to build
+This is my personal project to learn how inference engines actually work, and to build
 something tuned for my PC (RTX 3050, 6GB VRAM) rather than for a
 generic deployment target.
 
