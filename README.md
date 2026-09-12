@@ -5,10 +5,9 @@ Python reference implementation. The weight format, the memory layout, and kerne
 validated against PyTorch at every stage.
 
 This is my personal project to learn how inference engines actually work, and to build
-something tuned for my PC (RTX 3050, 6GB VRAM) rather than for a
-generic deployment target.
+something tuned for my PC (RTX 3050, 6GB VRAM).
 
-## Architecture recap (what's actually being built)
+## Architecture
 
 Whisper is an encoder-decoder transformer with a DSP frontend, not a neural net end to end:
 
