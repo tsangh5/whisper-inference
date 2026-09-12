@@ -34,8 +34,7 @@ raw audio ──▶ resample 16kHz ──▶ STFT ──▶ mel filterbank ─�
 
 ## Stack
 
-- **Python** (PyTorch + openai-whisper) — reference implementation and weight export only,
+- **Python** (PyTorch + openai-whisper), reference implementation and weight export only,
   not part of the runtime path.
-- **C++17**, MSVC — the actual inference engine.
-- Target hardware: RTX 3050 / 6GB VRAM, tuned for this machine rather than generic
-  deployment.
+- **C++17**, MSVC, the actual inference engine.
+- Target hardware: RTX 3050 / 6GB VRAM, tuned for my machine.
